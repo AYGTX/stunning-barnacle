@@ -1,6 +1,10 @@
 package com.gtx.backend.response;
 
-public class UserRest {
+import java.io.Serializable;
+
+public class UserRest implements Serializable {
+    private static final long serialVersionUID = 8951994251593378324L;
+
     private String userId;
     private String firstName;
     private String lastName;
